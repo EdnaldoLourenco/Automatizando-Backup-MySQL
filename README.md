@@ -1,4 +1,6 @@
 # Automação de backup para MySQL
+Este projeto contém um script Python para automatizar o backup de um banco de dados MySQL.
+O script lê a configuração do banco de dados a partir de variáveis ​​de ambiente, executa um dump do banco de dados usando mysqldump, compacta o arquivo de dump usando gzip e agenda esse backup para ser executado diariamente em um horário especificado.
 
 ## Requisitos 
 1. Python 3.x
